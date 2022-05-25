@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+* {
+    margin: 0;  
+      padding: 0;
+  }
+  
+  body {
+      width: 100vw;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #fafafad9;
+      background-image: url(imag/Storylogin.png);
+  }
+  
+  header {
+      width: 100%;
+      height: 10rem;
+      background-size: contain;	
+      margin: 1rem;
+  }
+  
+  button {
+      width: 6rem;
+      height: 2rem;
+      border: groove 3px #fff;
+      background-color: #fff;
+      cursor: pointer;	
+      margin-top: 2rem;
+  }
+  
+  button:hover {
+      background-color: #ff0000;
+      border-radius: 10px;
+      border: solid 3px groove #f3eb00;
+      color: #fff;
+  }
+  
+  h1 {
+      font-size: 5rem;
+      color: #fff;
+      font-family: 'Lobster', cursive;
+      text-align: center;
+      margin-top: 2rem;
+  }
+  
+  hr {
+      width: 100%;
+      border: solid 1px gray;
+      margin-top: 2rem;
+  }
+  
+  main {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+    
+  .randomTitle {
+      font-size: 2rem;
+      font-weight: 800;
+      color: #fff;
+      margin: 1rem;
+  }
+  
+  .card {
+      width: 11rem;
+      height: 20rem;	
+      border-radius: 15px;
+      border: solid 1px #210700;
+      margin: 1rem;
+  }
+  
+  .img-card {
+      width: 100%;
+      height: 100%;
+      border-radius: 15px;
+  }
+  
+  .card > p {
+      font-size: 1.5rem;
+      color: #bf2b05;
+      font-weight: 800;
+      text-align: center;	
+      height: 30%;
+  }
